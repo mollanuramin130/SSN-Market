@@ -1,0 +1,28 @@
+.offer-slider {
+  display: flex; /* Ensure horizontal layout */
+  overflow-x: auto; /* Allow horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.offer-slider > .offer-banner,
+.offer-slider > .category-banner {
+  display: inline-block; /* Ensure items are inline */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.offer-slider > .offer-banner {
+  min-width: 442px;
+  height: 262px;
+}
+
+.offer-slider > .category-banner {
+  min-width: 100px;
+  height: 120px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: rgb(226, 226, 231);
+}
