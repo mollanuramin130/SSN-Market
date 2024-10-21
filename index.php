@@ -35,7 +35,7 @@ foreach ($result as $row)
 
 </div>
 <div>
-    <h4 style="margin-left:15px;">Daily Shop Menu..</h4>
+    <h4 style="margin-left:15px;">Daily2 Shop Menu..</h4>
     <div id="slider-4-offers-slider">
         <div class="d-flex offer-slider overflow-auto" id="slider-4-categories-slider"></div>
     </div>
